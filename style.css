@@ -3,61 +3,79 @@ body {
     color: #777;
     background: #777;
     width: 960px;
+    margin: auto;
     font-size: 18px;
-    width: 495px;
     text-align: center;
 }
 
-#header {
+header {
     background: #ebebeb;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #nav {
     background: #ebebeb;
     padding: 20px;
-    margin: 10px 0 15px 0;
+    margin: 5px 0 15px 0;
 }
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-    }
 
 #section {
     background: #ebebeb;
-    float: left;
-    width: 60%;
+    padding: 15px;
+    width: 470px; 
+    height: 270px;
+    position: relative;
 }
 
 #aside {
     background: #ebebeb;
+    width: 440px;
+    height: 300px;
+    margin-left: 25px;
+    float: right;
+}
+
+.container{
+    position: relative;
 }
 
 #article {
     color: #ebebeb;
     background: #777;
-    float: left;
-    width: 60%;
+    border: 1px;
+    width: 480px;
+    height: 210px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
 
 #h1h2h3 {
-    color: #ebebeb;
-    background: #777;
-    padding: 15px;
-    float: left;
+    color: #777;
+    background: #ebebeb;
+    padding: 5px;
+    width: 440px;
+    position: absolute;
+    bottom: 100px;
+    left: 25px;
 }
 
 #p {
-    color: #ebebeb;
-    background: #777;
-    padding: 15px;
-    float: left;
+    color: #777;
+    background: #ebebeb;
+    padding: 5px;
+    width: 440px;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
 }
 
 #footer {
+    clear: both;
+    overflow: auto;
     background: #ebebeb;
     padding: 20px;
+    margin-top: 10px;
+
 }
